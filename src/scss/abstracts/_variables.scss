@@ -1,0 +1,39 @@
+@import "./font";
+
+$primary-font: Poppins;
+
+//colors
+$ghost-white: #f6f7fa;
+$secondary-black: #1b1b1b;
+$tertiary-black: #303030;
+$speech-blue: #404ac1;
+$primary-blue: #222c88;
+$secondary-blue: #2f80ed;
+$dark-orchid: #b89c1d;
+$primary-white: #ffffff;
+$burst-blue: #323a51;
+$pattens-blue: #d3d9dd;
+$primary-border-color: rgba(211, 217, 221, 0.5);
+$primary-emerald: #6fcf97;
+$primary-lavender: #ecedf9;
+$primary-nobel: #979797;
+$primary-singlow: #f8d538;
+$secondary-black: #282c34;
+$caribbean-green: #09d3ac;
+$primary-gray: #c7ceec;
+$primary-black: #000000;
+$silver-tree: #6fcf97;
+$primary-snow: #fcfcfc;
+
+$primary-flamingo: #eb5757;
+$primary-festival: #f2c94c;
+$golden-poppy: #f5bf01;
+$deep-sky-blue: #01b6f5;
+$silver-primary: #c4c4c4;
+//rgba
+$black-rgba: rgba(0, 0, 0, 0.6);
+$gray-rgba: rgba(220, 225, 228, 0.5);
+// Most used colors
+$primary-color: $primary-black;
+$secondary-color: $primary-singlow;
+$tertiary-color: $speech-blue;

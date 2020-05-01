@@ -1,0 +1,11 @@
+@import "../../../scss/abstracts/variables";
+@import "../../../scss/abstracts/helpers";
+.persona {
+  padding-top: 21px;
+  padding-bottom: 10px;
+  &-image {
+    @extend %circle-image;
+    width: 35px;
+    padding-left: 4px;
+  }
+}

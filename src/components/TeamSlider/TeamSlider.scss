@@ -1,0 +1,35 @@
+@import "../../scss/abstracts/variables";
+.team-column {
+    width: 90%;
+    
+  }
+  .team-container {
+    min-height: 92px;
+    background: $ghost-white;
+    border-radius: 20px;
+  }
+  .team-container-items {
+    padding: 16px;
+    height: 100%;
+    min-width: 17px;
+    align-items: center;
+  }
+  .team-name {
+    font-weight: 500;
+    font-size: 12px;
+    text-align: center;
+    color: $secondary-black;
+  }
+  .list-btn {
+    max-width: 17px !important;
+    background: $ghost-white !important;
+    height: 100%;
+    margin-left: 10px;
+    border-radius: 20px !important;
+  }
+  .list-btn:focus {
+    box-shadow: none !important;
+  }
+  .btn-lable {
+    transform: translateX(-2px);
+  }

@@ -1,0 +1,31 @@
+@import "../../scss/abstracts/variables";
+
+.sidbar {
+  background: $speech-blue;
+  height: 140vh;
+  top: 80px;
+  width: 65px;
+  position: fixed;
+
+  .rainbow-sidebar-item {
+    margin-top: 30px;
+    &--active::before {
+      background: $secondary-color !important;
+    }
+    &_icon {
+      background-color: transparent !important;
+
+      &:hover {
+        outline: none;
+      }
+
+      &_label {
+        color: $secondary-color;
+      }
+
+      &-deactive {
+        color: $primary-gray !important;
+      }
+    }
+  }
+}

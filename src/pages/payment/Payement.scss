@@ -1,0 +1,114 @@
+@import "../../scss/abstracts/variables";
+.payment {
+  min-height: 100vh;
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+  &-container {
+    width: 790px;
+    height: 560px;
+    background: $primary-white;
+    border-radius: 10px;
+    margin-top: 45px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .container-padding {
+    padding: 32px;
+  }
+  &-row {
+    margin-left: 0px !important;
+    margin-top: 20px;
+  }
+  &-smala-icon {
+    float: left;
+    padding-top: 3px;
+    padding-right: 17px;
+  }
+  &-icon-title {
+    font-weight: 600;
+    font-size: 20px;
+    color: $primary-black;
+    display: inline;
+  }
+  .primary-subtitle {
+    font-size: 15px;
+    color: $burst-blue;
+  }
+  &-invoice-date {
+    font-size: 15px;
+    color: $pattens-blue;
+  }
+  &-date {
+    font-size: 15px;
+    color: $pattens-blue;
+  }
+  &-grid-title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: $pattens-blue;
+  }
+  &-invoice-row {
+    margin-top: 24px;
+    margin-left: 0px !important;
+  }
+  &-total-price {
+    transform: translateX(-30px);
+  }
+  &-notification-title {
+    margin-top: 26px;
+    margin-bottom: 26px;
+  }
+}
+.invoice {
+  &-list-row {
+    margin-top: 10px;
+    background: $primary-white;
+    border-radius: 10px;
+    height: 51px;
+    align-items: center;
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+  }
+  &-list-items {
+    font-size: 15px;
+    color: $burst-blue;
+  }
+  &-list-header {
+    margin-top: 27px;
+    margin-bottom: 20px;
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+  }
+  &-payment-btn {
+    line-height: 2.2 !important;
+  }
+  &-list-pay-btn {
+    background: $speech-blue;
+    border-radius: 20px;
+    height: 34px;
+    width: 150px;
+    margin-right: 40px;
+  }
+  &-list-paid-btn {
+    background: $primary-singlow;
+    border-radius: 20px;
+    height: 34px;
+    width: 90px;
+    margin-right: 40px;
+    pointer-events: none;
+    cursor: default;
+  }
+  &-ellipse-btn {
+    background: transparent;
+    border: none;
+  }
+  &-custom-label {
+    transform: translateX(-40px);
+  }
+  &-align-label {
+    text-align: center;
+  }
+}

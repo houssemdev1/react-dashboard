@@ -1,0 +1,66 @@
+@import "../../scss/abstracts/variables";
+.notification {
+  &-column {
+    background: $primary-white;
+    padding-right: 25px;
+  }
+  &-cercle {
+    width: 20px;
+    height: 20px;
+    background: $speech-blue;
+    transform: translate(13px, -21px);
+    border: 1.5px solid $primary-white;
+    box-sizing: border-box;
+    border-radius: 50px;
+    &-label {
+      font-weight: 500;
+      font-size: 11px;
+      line-height: 16px;
+      text-align: center;
+      color: $primary-white;
+    }
+  }
+  &-new-title {
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 19px;
+    color: $primary-black;
+  }
+  &-old-title {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 19px;
+    color: $primary-black;
+  }
+  &-subtitle {
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 16px;
+    color: $black-rgba;
+  }
+  &-date {
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 16px;
+    color: $speech-blue;
+  }
+  &-title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: $primary-black;
+  }
+  &-activity-title {
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+  &-icon {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  &-container {
+    background: $primary-white;
+    width: 100%;
+    height: 100%;
+  }
+}

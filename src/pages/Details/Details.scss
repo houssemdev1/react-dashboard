@@ -1,0 +1,84 @@
+@import "../../scss/abstracts/variables";
+.details-container {
+  @media (max-width: 1199px) {
+    margin-left: 30px;
+    margin-right: 3px;
+  }
+  .title {
+    font-weight: 600;
+    font-size: 24px;
+    color: $primary-black;
+  }
+  .white-background {
+    background: $primary-white;
+    padding-bottom: 46px;
+    transform: translateY(-61px);
+    .container {
+      padding: 0px 20px;
+    }
+    .hr {
+      border: 1px solid $pattens-blue;
+    }
+    .dev-team {
+      font-family: $primary-font;
+      font-weight: 600;
+      font-size: 16px;
+      color: $primary-black;
+      padding-bottom: 20px;
+      padding-top: 10px;
+    }
+  }
+  .arrowVertical {
+    cursor: pointer;
+  }
+  .rainbow-tab_anchor {
+    font-size: 14px;
+
+    color: $primary-black;
+    opacity: 0.3;
+  }
+  .rainbow-tab--active {
+    background-color: $ghost-white;
+    color: $speech-blue;
+    opacity: 1;
+    box-shadow: none;
+    border-bottom: 2px solid $speech-blue;
+  }
+  .rainbow-tab--active::before {
+    border: none;
+    display: none;
+  }
+  .rainbow-tab--active::after {
+    border: none;
+    display: none;
+  }
+  :focus {
+    outline: none;
+  }
+  :hover {
+    text-decoration: none;
+  }
+  .rainbow-tabset_inner-container {
+    padding: 0px;
+    border-bottom: 1px solid rgba(172, 173, 175, 0.3);
+  }
+  .rainbow-p-around_xx-large {
+    padding: 0px;
+  }
+  .rainbow-tabset_container {
+    @media (max-width: 1199px) {
+      margin-left: 19px;
+    }
+  }
+}
+.details-page{
+  padding-bottom: 160px;
+  padding-left: 30px;
+  &-column-padding{
+    padding-right: 45px !important;
+  }
+  &-notifications{
+    transform: translate(-15px, -61px);
+  }
+
+}

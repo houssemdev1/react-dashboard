@@ -1,0 +1,17 @@
+@import "../../../scss/abstracts/variables";
+.gestion {
+  .title {
+    padding-top: 28px;
+  }
+  &-col-title {
+    font-family: $primary-font; font-weight:500;
+    font-size: 15px;
+    color: $primary-black;
+    padding-top: 28px;
+    padding-bottom: 22px;
+  }
+  &-row {
+    padding-right: 28px;
+    padding-bottom: 44px;
+  }
+}

@@ -1,0 +1,47 @@
+@import "../../scss/abstracts/variables";
+.payment {
+  &-notification-red-container {
+    border-left: 10px solid $primary-flamingo;
+    border-radius: 10px;
+    background: $ghost-white;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 36px;
+  }
+  &-notification-yellow-container {
+    border-left: 10px solid $primary-festival;
+    border-radius: 10px;
+    background: $ghost-white;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 36px;
+  }
+  &-invoice-number {
+    padding-top: 10px;
+
+    font-size: 12px;
+    color: $silver-primary;
+  }
+  &-invoice-amount {
+    font-size: 12px;
+    color: $silver-primary;
+  }
+  &-invoice-price {
+    margin-top: 13px;
+    font-weight: 500;
+    font-size: 25px;
+    margin-bottom: -4px;
+    color: $tertiary-color;
+  }
+  &-invoice-date {
+    font-weight: 500;
+    font-size: 18px;
+    color: $burst-blue;
+    margin-top: 19px !important;
+  }
+  &-invoice-footer {
+    transform: translateY(-10px);
+    font-size: 12px;
+    color: $tertiary-color;
+  }
+}

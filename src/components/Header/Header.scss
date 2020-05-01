@@ -1,0 +1,117 @@
+@import "../../scss/abstracts/variables";
+
+.smala-icon {
+  margin-left: 3px;
+}
+.rainbow-p-around_medium {
+  width: 100%;
+}
+.rainbow-p-around_medium .dhIffz {
+  border: none !important;
+  background: $ghost-white;
+}
+.rainbow-p-around_medium .dhIffz::placeholder {
+  font-family: $primary-font;
+  font-size: 11px;
+  align-items: center;
+  color: $primary-black;
+  opacity: 0.7;
+  padding-left: 10px;
+}
+.form-inline {
+  margin-right: 25px;
+}
+.header-component {
+  height: 80px;
+  background: $primary-white;
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+  .navbar {
+    transform: translateY(-2px);
+  }
+}
+.btn-label {
+  font-family: $primary-font;
+  font-size: 14px;
+  line-height: 21px;
+  color: $speech-blue;
+}
+.rainbow-m-around_medium,
+.rainbow-m-around_medium:hover,
+.rainbow-m-around_medium:focus {
+  box-shadow: none !important;
+  background: $primary-singlow;
+  width: 155px;
+  height: 35px;
+  transform: translateX(21px);
+}
+.btn-icon {
+  padding-right: 8px;
+}
+.rainbow-p-around_medium {
+  padding-right: 25px;
+  padding-left: 8px;
+}
+
+.flex-container {
+  place-items: center;
+  display: flex;
+  padding-left: 0px !important;
+}
+.header-right-items {
+  width: 100%;
+}
+.page-title {
+  margin-left: 19px;
+}
+.profile-icon {
+  padding-right: 20px;
+}
+
+//style for add project pop up
+.add-project-input .gHtayE,
+.iyYLMJ {
+  border: none;
+  border-radius: initial;
+  border-bottom: 2px solid $speech-blue;
+}
+.add-project-input .gHtayE:focus,
+.iyYLMJ:focus {
+  border: none;
+  box-shadow: none;
+  border-bottom: 2px solid $speech-blue;
+}
+.modal-class {
+  min-height: 389px;
+}
+.create-btn {
+  height: 40px;
+  display: flex !important;
+  justify-content: flex-end !important;
+  background: $speech-blue !important;
+  border-radius: 5px;
+}
+.create-btn-label {
+  font-family: $primary-font;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 22px;
+
+  align-items: center;
+  text-align: center;
+  color: $primary-white;
+}
+
+.input-row {
+  display: block !important;
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+.add-project-input .gHtayE,
+.iyYLMJ::placeholder {
+  padding-bottom: 20px;
+}
+.gHtayE {
+  padding: 0px;
+}

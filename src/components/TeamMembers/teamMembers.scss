@@ -1,0 +1,14 @@
+@mixin transition {
+  @for $i from 1 through 10 {
+    &:nth-child(#{$i}) {
+      transform: translateX(#{$i * (-10)}px);
+    }
+  }
+}
+.person-picture {
+  @include transition;
+}
+.stark-picture {
+  transform: translateX(10px);
+  display: flex
+}

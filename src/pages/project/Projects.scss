@@ -1,0 +1,18 @@
+@import "../../scss/abstracts/variables";
+
+.projects {
+  &-container {
+    margin-bottom: 160px;
+  }
+
+  &-current-title {
+    margin-top: 35px;
+    margin-bottom: 32px;
+    margin-left: 10px;
+  }
+  &-delivred-title {
+    margin-top: 42px;
+    margin-bottom: 22px;
+    margin-left: 10px;
+  }
+}

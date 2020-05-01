@@ -1,0 +1,155 @@
+@import "../../scss/abstracts/variables";
+
+//container
+.dashboard {
+  &-welcome-container {
+    background: $primary-white;
+    border: 1px solid $gray-rgba;
+    box-sizing: border-box;
+    border-radius: 20px;
+    height: 100%;
+    width: 100%;
+    padding: 25px;
+
+    &-text {
+      font-size: 15px;
+      line-height: 22px;
+      color: $black-rgba;
+    }
+  }
+  &-progress-bar{
+    margin-top: 15px
+  }
+  &-blue-ellipse {
+    width: 100%;
+    height: 51px;
+    background: $tertiary-color;
+    border-radius: 20px;
+    margin-bottom: 15px;
+  }
+  &-sunglow-ellipse {
+    width: 100%;
+    height: 51px;
+    background: $secondary-color !important;
+    border-radius: 20px;
+    margin-bottom: 15px;
+  }
+  &-torea-ellipse {
+    width: 100%;
+    height: 51px;
+    background: $primary-blue;
+    border-radius: 20px;
+  }
+  &-ellipse-info {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    display: inline;
+    text-align: center;
+    color: $primary-white;
+  }
+  &-ellipse-info-number {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 37px;
+    display: inline;
+    text-align: center;
+    color: $primary-white;
+    padding-right: 10px;
+  }
+  &-ellipse-container {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: center;
+  }
+
+  &-activity-card {
+    background: $primary-white;
+    border: 1px solid $gray-rgba;
+    box-sizing: border-box;
+    border-radius: 20px;
+    height: auto;
+    padding: 25px;
+    margin-top: 23px;
+  }
+  &-activitys-title {
+    font-weight: 500;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    color: $primary-black;
+  }
+  &-directionUp-icon {
+    transform: rotate(180deg);
+  }
+  &-weather-container {
+    min-height: 72px;
+    background: $ghost-white;
+    border-radius: 10px;
+  }
+  &-secondary-title {
+    font-weight: 600;
+    font-size: 20px;
+    align-items: center;
+    color: $primary-black;
+  }
+  &-weather-degree {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+
+    color: $primary-black;
+  }
+  &-weather-info {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 22px;
+    color: rgba(0, 0, 0, 0.5);
+  }
+  &-weather-time {
+    font-weight: 500;
+    font-size: 20px;
+    align-items: center;
+    color: $primary-black;
+  }
+
+  &-notification-title {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: $primary-black;
+  }
+  &-directionDown-btn {
+    background: $primary-white;
+    border: 1px solid rgba(196, 196, 196, 0.3);
+    box-sizing: border-box;
+    border-radius: 20px;
+    width: 100%;
+    height: 25px;
+    line-height: 0;
+    margin-top: 8px;
+  }
+  &-directionDown-label {
+    font-weight: 400;
+    align-items: center;
+    font-size: 13px;
+    display: inline;
+    color: $tertiary-black;
+    padding-right: 17px;
+  }
+  &-activitys-container {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  &-welcome-row {
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+  }
+}

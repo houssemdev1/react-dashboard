@@ -1,0 +1,126 @@
+@import "../../../scss/abstracts/variables";
+@import "../../../scss/abstracts/helpers";
+.details {
+  &-description {
+    padding-top: 35px;
+    font-family: $primary-font;
+    font-weight: 500;
+    font-size: 18px;
+    color: $primary-black;
+    opacity: 0.7;
+  }
+  &-description-txt {
+    padding-top: 13px;
+    padding-bottom: 35px;
+    margin-bottom: 0px;
+    font-family: $primary-font;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.7);
+  }
+  &-task-category {
+    font-family: $primary-font;
+    font-weight: 500;
+    font-size: 15px;
+    color: $primary-black;
+    padding-bottom: 20px;
+  }
+  &-white-backgr {
+    background: $primary-white;
+    border-radius: 10px;
+  }
+  .pad-t-marg-b {
+    padding-top: 51px;
+    margin-bottom: 50px;
+  }
+  &-col-title {
+    font-family: $primary-font;
+    font-weight: 600;
+    font-size: 16px;
+    color: $primary-black;
+  }
+  &-view-link {
+    font-family: $primary-font;
+    font-weight: 500;
+    font-size: 13px;
+    color: $speech-blue !important;
+  }
+
+  hr {
+    margin: 0px;
+  }
+  .pad-r {
+    padding-right: 19px;
+  }
+  .pad-t-11 {
+    padding-top: 11px;
+  }
+  .pad-t-21 {
+    padding-top: 21px;
+  }
+  .pad-t-26 {
+    padding-top: 6px;
+  }
+  .pad-t-20 {
+    padding-top: 20px;
+  }
+  .pad-l {
+    padding-left: 11px;
+  }
+  .marg-bot {
+    margin-bottom: 80px;
+  }
+  .name-persona-file {
+    align-self: center;
+    font-family: $primary-font;
+    font-weight: 500;
+    color: $primary-black;
+    font-size: 13px;
+    padding-left: 11px;
+  }
+  .job-owner-size {
+    font-family: $primary-font;
+    font-weight: 300;
+    font-size: 11px;
+    color: $primary-black;
+    opacity: 0.7;
+  }
+  .rainbow-button-icon--border-filled {
+    border: none;
+  }
+  .rainbow-button-icon--border-filled:hover,
+  .rainbow-button-icon--border-filled:focus,
+  .rainbow-button-icon--border-filled:active {
+    background-color: $primary-white;
+  }
+  .rainbow-button-icon:focus {
+    box-shadow: none;
+  }
+  .rainbow-button-icon--medium {
+    width: 5px;
+    height: 22px;
+  }
+  .rainbow-primitive-menu.rainbow-primitive-menu--open .rainbow-button-icon {
+    box-shadow: none;
+  }
+  .rainbow-primitive-menu_dropdown {
+    border-radius: 20px !important;
+    padding: 9px 7px;
+    margin: 0px;
+    border: none;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+  }
+  a:hover {
+    color: $primary-black;
+  }
+  .rainbow-menu-item {
+    a {
+      color: $primary-black;
+    }
+    a:active,
+    a:hover,
+    a:focus {
+      background-color: rgba(196, 196, 196, 0.3);
+      border-radius: 10px;
+    }
+  }
+}

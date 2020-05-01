@@ -1,0 +1,204 @@
+@import "./scss/abstracts/variables";
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: $secondary-black;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: $primary-white;
+}
+
+.App-link {
+  color: $caribbean-green;
+}
+
+.container-fluid {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  overflow: hidden;
+  background: $ghost-white;
+}
+.pages-container {
+  transform: translateY(80px);
+  height: 100%;
+}
+.primary-title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: $primary-black;
+}
+.sidebar-container {
+  width: 65px;
+}
+.stark-label {
+  width: 85px;
+  height: 30px;
+  background: $primary-white;
+  border: 1px solid $dark-orchid;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+.stark-ellipse {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 29px;
+  align-items: center;
+  text-align: center;
+  color: $dark-orchid;
+}
+//commun style
+.pt {
+  padding-top: 22px;
+}
+.mt {
+  margin-top: 30px;
+}
+.normal-title {
+  font-size: 18px;
+  line-height: 50px;
+}
+.normal-text {
+  font-size: 12px;
+  line-height: 22px;
+  color: $black-rgba;
+}
+a {
+  text-decoration: none !important;
+}
+
+//*******************calendar style *********************
+
+.calendar-card {
+  border: none !important;
+  width: auto !important;
+  margin-top: -13px;
+  margin-bottom: -21px;
+  .react-calendar__navigation__label {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    color: $tertiary-color;
+    text-transform: uppercase;
+  }
+  .react-calendar__viewContainer .react-calendar__month-view {
+    &__weekdays {
+      color: $tertiary-color;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 16px;
+    }
+  }
+  .calendar-title {
+    font-weight: normal;
+    font-size: 9px;
+    align-items: center;
+    text-align: center;
+    color: $primary-black;
+  }
+}
+.calendar-card .react-calendar__navigation {
+  &__next2-button {
+    display: none !important;
+  }
+}
+.calendar-card .react-calendar__navigation {
+  &__prev2-button {
+    display: none;
+  }
+}
+.calendar-card {
+  .react-calendar__month-view__weekdays__weekday {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 9px;
+    line-height: 13px;
+
+    color: $tertiary-color;
+    abbr[title] {
+      text-decoration: none !important;
+    }
+  }
+}
+.react-calendar__month-view__days .react-calendar__tile--active:enabled abbr {
+  background: #9fa4e0 !important;
+  border-radius: 50px !important;
+  line-height: 0.1;
+  transform: translateY(3px);
+  padding: 8px;
+}
+.react-calendar__month-view__days .react-calendar__tile--active:enabled {
+  background: white;
+}
+.react-calendar__month-view__days__day--weekend {
+  color: $primary-black !important;
+}
+
+.react-calendar__month-view__days__day--neighboringMonth {
+  color: #757575 !important;
+}
+
+.react-calendar__tile {
+  font-size: 9px;
+}
+.react-calendar__navigation {
+  height: 15px;
+  margin-bottom: 10px;
+}
+.react-calendar__navigation__label {
+  line-height: 1.8;
+}
+.react-calendar__navigation__label {
+  pointer-events: none;
+}
+.react-calendar__navigation button:enabled:hover,
+.react-calendar__navigation button:enabled:focus {
+  outline: none !important;
+  background: none !important;
+}
+.react-calendar__navigation {
+  height: 0px !important;
+  margin-bottom: 0px !important;
+}
+.react-calendar__viewContainer {
+  margin-top: 25px !important;
+}
+.calendar-container {
+  margin-top: 37px;
+  height: auto !important;
+}
+.react-calendar__tile
+  .react-calendar__month-view__days__day
+  .react-calendar__month-view__days__day--neighboringMonth {
+  padding: 13px;
+}
+.border-calendar abbr {
+  border: 1px solid $tertiary-color !important;
+  border-radius: 50px;
+
+  font-style: normal;
+  font-weight: 600;
+  color: $tertiary-color !important;
+  line-height: 0.1;
+  transform: translateY(3px);
+  padding: 8px;
+}
+.global-row {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+
+.active-item {
+  color: $primary-emerald !important;
+}

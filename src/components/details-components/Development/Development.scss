@@ -1,0 +1,289 @@
+@import "../../../scss/abstracts/variables";
+@import "~@fullcalendar/core/main.css";
+//@import "~@fullcalendar/daygrid/main.css";
+@import "~@fullcalendar/timegrid/main.css";
+@import "../../../scss/abstracts/helpers";
+.development {
+  &-img {
+    border-radius: 20px;
+  }
+  &-video {
+    border-radius: 20px;
+  }
+  &-li {
+    padding-top: 8px;
+    padding-bottom: 4px;
+  }
+
+  .rainbow-timeline-marker_dot {
+    background: $silver-primary;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-left: 1px;
+    &.active {
+      background: $golden-poppy;
+    }
+  }
+  .active-timeline {
+    .rainbow-timeline-marker_container
+      .rainbow-timeline-marker_column-left::before {
+      background-color: $golden-poppy;
+    }
+  }
+  .rainbow-timeline-marker_container
+    .rainbow-timeline-marker_column-left::before {
+    background-color: $silver-primary;
+    margin-top: 4px;
+  }
+
+  .title {
+    padding-top: 24px;
+  }
+  .select {
+    font-family: $primary-font;
+    margin-top: 18px;
+    font-size: 14px;
+    padding: 6px;
+    color: $primary-black;
+    opacity: 0.7;
+    background: #dce1e7;
+    border-radius: 5px;
+    border: 0 !important;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url("../../../assets/images/arrow-down-icon.svg");
+    background-size: 0.6em;
+    background-position: calc(100% - 1.3em) center;
+    background-repeat: no-repeat;
+    padding-right: 50px;
+  }
+  select::-ms-expand {
+    display: none;
+  }
+  .subtitle {
+    font-family: $primary-font;
+    font-weight: 500;
+    font-size: 18px;
+    color: $primary-black;
+  }
+  .pad-b-20 {
+    padding-bottom: 20px;
+  }
+  .pad-t-32 {
+    padding-top: 32px;
+  }
+  .pad-l-13 {
+    padding-left: 13px;
+  }
+  .pad-t-22 {
+    padding-top: 22px;
+  }
+  .pad-t-42 {
+    padding-top: 42px;
+  }
+  .pad-t-41 {
+    padding-top: 41px;
+  }
+  .pad-b-30 {
+    padding-bottom: 30px;
+  }
+  .pad-b-18 {
+    padding-bottom: 18px;
+  }
+  .pad-b-15 {
+    padding-bottom: 15px;
+  }
+
+  .white-backgr {
+    padding-top: 18px;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-bottom: 15px;
+  }
+  .details-txt {
+    font-family: $primary-font;
+    font-size: 15px;
+    color: $primary-black;
+    opacity: 0.7;
+  }
+  .link {
+    color: $deep-sky-blue !important;
+    font-size: 13px;
+  }
+
+  .rainbow-m-around_xx-large {
+    margin: 0px;
+  }
+  .rainbow-timeline-marker_container .rainbow-timeline-marker_content {
+    margin: 0px 0px 0px 8px;
+  }
+  .rainbow-timeline-marker_container
+    .rainbow-timeline-marker_content
+    .rainbow-timeline-marker_content-header
+    .rainbow-timeline-marker_content-header-title
+    .rainbow-timeline-marker_datetime {
+    margin: 0px;
+  }
+  .rainbow-timeline-marker_description {
+    font-family: $primary-font !important;
+    font-size: 13px !important;
+    color: $primary-black !important;
+  }
+  .rainbow-timeline-marker_container
+    .rainbow-timeline-marker_content
+    .rainbow-timeline-marker_content-header
+    .rainbow-timeline-marker_description {
+    padding: 0px;
+    margin: 0px;
+  }
+  .rainbow-timeline-marker_datetime {
+    font-family: $primary-font !important;
+    font-size: 15px !important;
+    color: $silver-primary !important;
+  }
+  .rainbow-timeline-marker_content-header-title {
+    justify-content: flex-start !important;
+  }
+  .gray-rectangle {
+    background-color: #e0e4e9;
+    width: 62.61px;
+    height: 34.15px;
+  }
+  .side-arrow {
+    padding-top: 11.38px;
+  }
+  .carousel-control-next,
+  .carousel-control-prev {
+    width: 10%;
+  }
+  .rainbow-timeline-marker_container
+    .rainbow-timeline-marker_column-left
+    .rainbow-timeline-marker_icon-container {
+    margin-top: 4px;
+  }
+  //full-calendar
+  .fc-unthemed td.fc-today {
+    background: none;
+  }
+  .fc-day-header.fc-widget-header.fc-today {
+    color: $speech-blue;
+  }
+  .fc-toolbar.fc-header-toolbar {
+    margin-bottom: 0px;
+    height: 0px;
+    display: none;
+  }
+  .fc th {
+    font-family: $primary-font;
+    font-weight: 500;
+    font-size: 12px;
+    color: $primary-black;
+    padding-top: 24px;
+    padding-bottom: 14px;
+    border: none;
+    height: 66px;
+  }
+  .fc-scroller {
+    height: auto !important;
+    overflow: hidden !important;
+  }
+
+  .fc {
+    background: $primary-white;
+    border: 1px solid rgba(220, 225, 228, 0.5);
+    box-sizing: border-box;
+    border-radius: 20px;
+  }
+  .fc-unthemed .fc-divider,
+  .fc-unthemed .fc-popover .fc-header,
+  .fc-unthemed .fc-list-heading td {
+    background: $primary-white;
+  }
+
+  .fc {
+    border: 1px solid rgba(196, 196, 196, 0.5);
+  }
+  //.fc-content-skeleton
+  .fc-unthemed .fc-divider {
+    display: none;
+  }
+  td {
+    height: 62px;
+  }
+  .fc-axis .fc-widget-content {
+    font-size: 12px;
+    color: $silver-primary;
+  }
+  .fc-time-grid .fc-slats .fc-minor td {
+    border-top-style: none;
+  }
+  tr {
+    height: 29px;
+  }
+  .fc-widget-header {
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+  }
+  .fc-view {
+    padding-bottom: 36px;
+  }
+  .fc-time {
+    border: none;
+  }
+  .fc-ltr .fc-axis {
+    text-align: left;
+    width: 70px !important;
+  }
+  .fc .fc-axis {
+    padding-left: 16px;
+    font-family: $primary-font;
+    text-transform: uppercase;
+    font-size: 12px;
+    position: relative;
+    transform: translateY(-55%);
+  }
+  td.fc-widget-content {
+    //border-bottom: 0px;
+    //border-left: 0px;
+    //border-right: 0px;
+  }
+  .calendarEvent {
+    background: $primary-snow;
+    border: none;
+    border-left: 6px solid $primary-festival;
+    width: 95%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+  }
+  .descriptionEvent {
+    padding-top: 2px;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-family: $primary-font;
+    font-size: 11px;
+    color: rgba(0, 0, 0, 0.5);
+  }
+  .fc-title {
+    padding-top: 11px;
+    padding-left: 8px;
+    font-family: $primary-font;
+    color: $primary-black;
+    font-weight: 500;
+    font-size: 15px;
+  }
+
+  .event-image {
+    @extend %circle-image;
+    width: 28.73px;
+    margin-left: 5px;
+    margin-right: 5.53px;
+    margin-bottom: 8px;
+  }
+  .images {
+    position: absolute;
+    bottom: 0;
+  }
+}
